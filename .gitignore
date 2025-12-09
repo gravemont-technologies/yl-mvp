@@ -1,0 +1,44 @@
+# Repository-specific secrets
+# `client.json` is intentionally ignored (contains credentials)
+client.json
+token.json
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Node
+node_modules/
+npm-debug.log*
+package-lock.json
+yarn.lock
+pnp.js
+
+# Next.js build output
+.next/
+out/
+
+# Production
+dist/
+build/
+
+# Editor directories and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Coverage and caches
+coverage/
+.cache/
+.parcel-cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+*.log
+
+# Optional: keep example config files in repository
+!client.example.json
